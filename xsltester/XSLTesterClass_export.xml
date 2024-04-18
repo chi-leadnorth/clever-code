@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Export generator="IRIS" version="26" zv="IRIS for Windows (x86-64) 2022.1.2 (Build 574_0_22407U)" ts="2024-01-05 03:46:45">
-<Class name="BCBSSC.Util.CCDAMessage01">
+<Class name="HS.Local.Util.CCDAMessage01">
 <Super>%RegisteredObject</Super>
 <TimeChanged>66844,9379.7691882</TimeChanged>
 <TimeCreated>66843,72526.2878424</TimeCreated>
@@ -10079,7 +10079,7 @@
 </Class>
 
 
-<Class name="BCBSSC.Util.XSLTester">
+<Class name="HS.Local.Util.XSLTester">
 <TimeChanged>66844,13456.0252106</TimeChanged>
 <TimeCreated>66843,65413.759081</TimeCreated>
 
@@ -10113,7 +10113,7 @@
 
 <UDLText name="T">
 <Content><![CDATA[
-// Test from Terminal: HSCUSTOM> do ##class(BCBSSC.Util.XSLTester).RunTest()
+// Test from Terminal: HSCUSTOM> do ##class(HS.Local.Util.XSLTester).RunTest()
 
 ]]></Content>
 </UDLText>
@@ -10136,7 +10136,7 @@
 <ClassMethod>1</ClassMethod>
 <Implementation><![CDATA[
 	#dim message as HS.Message.XMLMessage
-	Set ClassName = "BCBSSC.Util.CCDAMessage01"
+	Set ClassName = "HS.Local.Util.CCDAMessage01"
 	Set XDataBody = "CCDABody"
 	Set XDataHeader = "CCDAPnRHeader"
 	Set OutputDirectory = "c:/temp/"
